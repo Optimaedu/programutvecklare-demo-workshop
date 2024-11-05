@@ -2,10 +2,10 @@
 
 Ett nybörjarprojekt för att introducera nybörjare till webbutveckling. Repositoryn innehåller två brancher: en ostylad `main`-branch med grundläggande HTML-struktur, och en `completed`-branch som visar den färdiga, stilade versionen med HTML, CSS och JavaScript. Målet med workshoppen är att lära sig ändra koden för att gå från den ostylade till den stilade versionen.
 
-## Ostylad version
+**Ostylad version**
 
-![Unstyled website](unstyled.png)
+![](unstyled.png)
 
-## Den färdiga "stylade" versionen
+**Den färdiga "stylade" versionen**
 
-![Styled website](styled.png)
+![](styled.png)
