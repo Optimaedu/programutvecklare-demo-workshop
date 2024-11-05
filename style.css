@@ -6,8 +6,8 @@
 body {
   
   /* Webbsidans bakgrundsfärg och standard textfärg */
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   /* --- */
 
   font-family: sans-serif;
@@ -27,40 +27,45 @@ article {
 /* Stilar för huvudrubriken */
 h1 {
   /* Textfärg */
-  color: orange;
+  color: black;
 
   /* Textstorlek */
-  font-size: 2.5rem;
+  font-size: 1.25rem;
 
   /* Text-tjocklek */
-  font-weight: bold;
+  font-weight: normal;
 
-  margin: 0;
-  margin-bottom: 2rem;
+  /* Mellanrum upp och ner */
+  margin-top: 0rem;
+  margin-bottom: 0rem;
 }
 
 /* Stilar för underrubriken */
 h3 {
   /* Textfärg */
-  color: orange;
+  color: black;
 
   /* Textstorlek */
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  
+  /* Text-tjocklek */
+  font-weight: normal;
 
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  /* Mellanrum upp och ner */
+  margin-top: 0rem;
+  margin-bottom: 0rem;
 }
 
 /* Stilar för paragraferna */
 p {
   /* Mellanrum under paragraferna */
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
 }
 
 /* Stil för bilden */
 img {
   /* Mellanrum ovanför bilden */
-  margin-top: 2rem;
+  margin-top: 0rem;
 
   max-width: 100%;
   border: 0;
