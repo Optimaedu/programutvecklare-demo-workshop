@@ -19,7 +19,7 @@ function createRainbowEffect(container) {
 
   const characters = text.split('').map(character => {
     const characterElement = document.createElement('span')
-    characterElement.innerText = character
+    characterElement.innerHTML = character == ' ' ? '&nbsp;' : character
     container.append(characterElement)
     return characterElement
   });
@@ -38,13 +38,13 @@ function createRainbowEffect(container) {
 }
 
 function hsvToRgb(h, s, v) {
-  var r, g, b;
+  let r, g, b;
 
-  var i = Math.floor(h * 6);
-  var f = h * 6 - i;
-  var p = v * (1 - s);
-  var q = v * (1 - f * s);
-  var t = v * (1 - (1 - f) * s);
+  const i = Math.floor(h * 6);
+  const f = h * 6 - i;
+  const p = v * (1 - s);
+  const q = v * (1 - f * s);
+  const t = v * (1 - (1 - f) * s);
 
   switch (i % 6) {
     case 0: r = v, g = t, b = p; break;
